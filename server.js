@@ -4,6 +4,7 @@ const app = express();
 const port = 5500;
 
 app.use('/', require('./routes'))
+// #1=>#2 This is the routes that are found in routes/index.js
 
 app.listen(process.env.PORT || port, () => {
     console.log('Web Server is listening at port ' + (process.env.PORT || port));
