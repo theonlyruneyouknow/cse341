@@ -6,6 +6,7 @@ const lesson1Controller = require('../controllers/lesson1');
 routes.get('/', lesson1Controller.rootRoute);
 routes.get('/blank', lesson1Controller.blankRoute);
 routes.get('/rune', lesson1Controller.runeRoute);
+routes.get('/contacts', lesson1Controller.contactsRoute);
 // #2 This is the routes from #1 in the lesson1 file in the controller folder
 
 // #2 exported to be able to be used by #1
